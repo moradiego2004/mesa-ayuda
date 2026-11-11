@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS tickets (id INT AUTO_INCREMENT PRIMARY KEY, titulo VARCHAR(100), descripcion TEXT, estado VARCHAR(20) DEFAULT 'abierto');
+INSERT INTO tickets (titulo, descripcion) VALUES ('Error impresora', 'No imprime sala 2');
