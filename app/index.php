@@ -1,3 +1,4 @@
+<!-- mejora: validacion formulario 
 <?php
 echo "<h1>Mesa de Ayuda - UNIVERSIDAD COOPERATIVA DE COLOMBIA</h1>";
 $conn = @new mysqli("db", "root", "root123", "mesa_ayuda");
